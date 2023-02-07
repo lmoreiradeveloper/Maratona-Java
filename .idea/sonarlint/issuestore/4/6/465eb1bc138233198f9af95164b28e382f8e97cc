@@ -1,0 +1,24 @@
+
+X
+java:S2184	"BCast one of the operands of this division operation to a "double".(»¥ ¿
+N	java:S106"9Replace this use of System.out or System.err by a logger.(áÙë
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¿§¾´
+N	java:S106"9Replace this use of System.out or System.err by a logger.(İŒ²ï
+a
+java:S1764"KCorrect one of the identical sub-expressions on both sides of operator "=="(ÀÙå¹
+a
+java:S1764"KCorrect one of the identical sub-expressions on both sides of operator "!="(Ù½¦
+N	java:S106"9Replace this use of System.out or System.err by a logger.(İÑƒ”
+S	java:S106"9Replace this use of System.out or System.err by a logger.(†¤•èşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(­÷Ü½ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ïïßâúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(’‡¹îıÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(Øˆ©¯
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(’©ü
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(Œ†ıĞ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(“¸ÀÕùÿÿÿÿ
+V	java:S1250"<This block of commented-out lines of code should be removed.(Ï€Åùÿÿÿÿ
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(’Ë•
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(çêªıÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(Ûº÷ûÿÿÿÿ
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(ç­§¦
