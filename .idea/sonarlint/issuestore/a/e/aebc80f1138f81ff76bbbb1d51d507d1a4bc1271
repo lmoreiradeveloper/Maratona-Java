@@ -1,7 +1,0 @@
-
-W
-java:S1854"<Remove this useless assignment to local variable "numeros2".(…í€ÿÿÿÿÿ
-H
-java:S1481"-Remove this unused "numeros2" local variable.(…í€ÿÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Å¿ÅÓşÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(™¢Â¹
