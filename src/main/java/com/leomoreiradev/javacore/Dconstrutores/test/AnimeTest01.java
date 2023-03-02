@@ -1,20 +1,12 @@
 package com.leomoreiradev.javacore.Dconstrutores.test;
 
-import com.leomoreiradev.javacore.Csobrecargametodos.dominio.Anime;
+import com.leomoreiradev.javacore.Dconstrutores.dominio.Anime;
 
 public class AnimeTest01 {
     public static void main(String[] args) {
-        Anime anime = new Anime();
-        //usando sobrecarga de metodos
-
-        //Metodo 1
-        anime.init("Akudama Drive", "TV", 12);
-
-        //Metodo 2
-        anime.init("Akudama Drive", "TV", 12, "Ação");
-//        anime.setNome("Akudama Drive");
-//        anime.setTipo("TV");
-//        anime.setEpisodios(12);
+        Anime anime = new Anime("Akudama Drive", "TV", 12, "Ação", "Production IG");
+        Anime anime2 = new Anime();
         anime.imprime();
+        anime2.imprime();
     }
 }

@@ -5,16 +5,27 @@ public class Anime {
     private String tipo;
     private int episodios;
     private String genero;
+    private String estudio;
 
-    public void init (String nome, String tipo, int episodios){
+    public Anime() {
+        System.out.println("Dentro do construtor sem parametros");
+    }
+
+    public Anime(String nome, String tipo, int episodios, String genero) {
+        this(); //chamando o construtor padrao sem parametros
         this.nome = nome;
         this.tipo = tipo;
         this.episodios = episodios;
+        this.genero = genero;
+        System.out.println("O contrututor é inicializado antes dos metodos");
+
     }
 
-    public void init (String nome, String tipo, int episodios, String genero){
-        this.init(nome, tipo, episodios);
-        this.genero = genero;
+    public Anime(String nome, String tipo, int episodios, String genero, String estudio) {
+        this(nome, tipo, episodios, genero); //chamando o construtor com parametros
+        this.estudio = estudio;
+        System.out.println("O contrututor com parametro estudio");
+
     }
 
     public void imprime(){
@@ -22,6 +33,7 @@ public class Anime {
         System.out.println(this.tipo);
         System.out.println(this.episodios);
         System.out.println(this.genero);
+        System.out.println(this.estudio);
     }
 
     public String getNome() {
