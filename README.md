@@ -6,7 +6,7 @@
 | 17             | [Java doc](https://docs.oracle.com/en/java/) |
 
 ```
-System.println.out("Vamos começar");
+System.out.println("Vamos começar");
 ```
 ## 📒Topicos:
  - [Introdução a classes](https://github.com/leomoreiradev/Maratona-Java/tree/main/src/main/java/com/leomoreiradev/javacore/Aintroducaoclasses)
